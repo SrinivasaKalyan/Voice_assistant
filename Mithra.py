@@ -153,15 +153,6 @@ def run_Mithra():
         talk('opening')
         os.startfile(path)
 
-    elif 'open r studio' in command:
-        path = "C:\\Users\\bhanu\\OneDrive\\Desktop\\RStudio.lnk"
-        talk('opening')
-        os.startfile(path)
-
-    elif "open dev c plus plus" in command:
-        path = "C:\\Users\\bhanu\\OneDrive\\Desktop\\Dev-C++.lnk"
-        talk('opening')
-        os.startfile(path)
 
     elif "open microsoft edge" in command:
         path = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Edge.lnk"
@@ -169,7 +160,7 @@ def run_Mithra():
         os.startfile(path)
 
     elif "open jupyter notebook" in command:
-        path = "C:\\Users\\bhanu\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Anaconda3 (64-bit)\\Jupyter Notebook (anaconda3).lnk"
+        path = "C:\\Users\\srini\\AppData\\Roaming\Microsoft\\Windows\\Start Menu\\Programs\\Anaconda3 (64-bit)\\Jupyter Notebook.lnk"
         talk('opening')
         os.startfile(path)
 
